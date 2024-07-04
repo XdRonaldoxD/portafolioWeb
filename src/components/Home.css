@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap");
 /* SECCION I N I C I O */
+.no-underline {
+  text-decoration: none;
+}
 .inicio {
   background: linear-gradient(
       to top,
       rgba(30, 35, 38, 0.8),
       rgba(30, 35, 38, 1)
     ),
-    url(img/fondo.jpg);
+    url(/img/fondo.jpg);
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -224,7 +227,7 @@
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 84%;
   }
 }
 
@@ -250,7 +253,7 @@
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 78%;
   }
 }
 
@@ -267,19 +270,6 @@
   }
 }
 
-.skills .skill .react {
-  width: 0%;
-  animation: 2s react forwards;
-}
-@keyframes react {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
 .skills .skill .htmlcss {
   width: 0%;
   animation: 2s htmlcss forwards;
@@ -290,45 +280,6 @@
   }
   100% {
     width: 89%;
-  }
-}
-
-.skills .skill .boostrap {
-  width: 0%;
-  animation: 2s boostrap forwards;
-}
-@keyframes boostrap {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 90%;
-  }
-}
-
-.skills .skill .jquery {
-  width: 0%;
-  animation: 2s jquery forwards;
-}
-@keyframes jquery {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 95%;
-  }
-}
-
-.skills .skill .offices {
-  width: 0%;
-  animation: 2s offices forwards;
-}
-@keyframes offices {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 87%;
   }
 }
 
@@ -344,6 +295,22 @@
     width: 91%;
   }
 }
+
+
+
+.skills .skill .offices {
+  width: 0%;
+  animation: 2s offices forwards;
+}
+@keyframes offices {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 87%;
+  }
+}
+
 
 .skills .skill .git {
   width: 0%;
@@ -392,22 +359,9 @@
     width: 0%;
   }
   100% {
-    width: 95%;
+    width: 90%;
   }
 }
-.skills .skill .sql {
-  width: 0%;
-  animation: 2s sql forwards;
-}
-@keyframes sql {
-  0% {
-    width: 0%;
-  }
-  100% {
-    width: 75%;
-  }
-}
-
 .skills .skill .comunicacion {
   width: 0%;
   animation: 2s comunicacion forwards;

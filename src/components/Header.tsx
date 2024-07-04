@@ -29,10 +29,9 @@ export default function Header() {
                 <ul>
                     <li><a href="#inicio" onClick={seleccionar}>INICIO</a></li>
                     <li><a href="#sobremi" onClick={seleccionar}>SOBRE MI</a></li>
-                    <li><a href="#skills" onClick={seleccionar}>SKILLS</a></li>
+                    <li><a href="#skills" onClick={seleccionar}>HABILIDADES</a></li>
                     <li><a href="#curriculum" onClick={seleccionar}>CURRICULUM</a></li>
-                    <li><a href="#portfolio" onClick={seleccionar}>PORTFOLIO</a></li>
-                    <li><a href="#contacto" onClick={seleccionar}>CONTACTO</a></li>
+                    <li><a href="#portfolio" onClick={seleccionar}>PORTAFOLIO</a></li>
                 </ul>
             </nav>
             <div className={styles['nav-responsive']} onClick={mostrarOcultarMenu}>

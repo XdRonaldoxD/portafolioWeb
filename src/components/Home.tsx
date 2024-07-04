@@ -22,22 +22,17 @@ export default function Home() {
                     habilidades[1].classList.add("phplaravel");
                     habilidades[2].classList.add("angularcli");
                     habilidades[3].classList.add("python");
-                    habilidades[4].classList.add("react");
-                    habilidades[5].classList.add("htmlcss");
-                    habilidades[6].classList.add("boostrap");
-                    habilidades[7].classList.add("jquery");
+                    habilidades[4].classList.add("htmlcss");
+                    habilidades[5].classList.add("bitbucket");
+                    habilidades[6].classList.add("mysql");
+                    habilidades[7].classList.add("jiras");
                     habilidades[8].classList.add("offices");
-                    habilidades[9].classList.add("bitbucket");
-                    habilidades[10].classList.add("git");
-                    habilidades[11].classList.add("jiras");
-                    habilidades[12].classList.add("photoshop");
-                    habilidades[13].classList.add("mysql");
-                    habilidades[14].classList.add("sql");
-                    habilidades[15].classList.add("comunicacion");
-                    habilidades[16].classList.add("team");
-                    habilidades[17].classList.add("creatividad");
-                    habilidades[18].classList.add("dedicacion");
-                    habilidades[19].classList.add("proyect");
+                    habilidades[9].classList.add("photoshop");
+                    habilidades[10].classList.add("comunicacion");
+                    habilidades[11].classList.add("team");
+                    habilidades[12].classList.add("creatividad");
+                    habilidades[13].classList.add("dedicacion");
+                    habilidades[14].classList.add("proyect");
                 }
             }
         }
@@ -128,6 +123,12 @@ export default function Home() {
             titulo: "SISTEMA CRM VETERINARIO",
             url: "https://crmveterinario.com",
             subtitulo: "PAGINA WEB"
+        },
+        {
+            img: "img/carritoreactcompras.png",
+            titulo: "ACCESORIO DE PRODUCTOS",
+            url: "https://carritoaccesorio.com.sistemaboticarosa.com",
+            subtitulo: "PAGINA WEB"
         }
     ]
     //-------------------------------------
@@ -136,67 +137,45 @@ export default function Home() {
     const habilidades = {
         tecnicas: [
             {
-                nombre: 'Javascript',
-                porcentaje: "80%"
+                nombre: 'Javascript / Jquery',
+                porcentaje: "84%"
             },
             {
-                nombre: 'Php/Laravel',
+                nombre: 'Php / Laravel',
                 porcentaje: "85%"
             },
             {
-                nombre: 'Angular Cli',
-                porcentaje: "75%"
+                nombre: 'Angular Cli (Typescript) / React (js)',
+                porcentaje: "78%"
             },
             {
                 nombre: 'Python',
                 porcentaje: "65%"
             },
             {
-                nombre: 'React',
-                porcentaje: "75%"
-            },
-            {
-                nombre: 'HTML & CSS',
+                nombre: 'HTML / CSS / Boostrap',
                 porcentaje: "89%"
             },
             {
-                nombre: 'Boostrap',
+                nombre: 'GitHub / BitBucket',
+                porcentaje: "91%"
+            },
+            {
+                nombre: 'Mysql / Sql',
                 porcentaje: "90%"
             },
             {
-                nombre: 'JQuery',
-                porcentaje: "95%"
+                nombre: 'Jiras / Postman',
+                porcentaje: "85%"
             },
             {
                 nombre: 'Offices',
                 porcentaje: "87%"
             },
             {
-                nombre: 'Git',
-                porcentaje: "91%"
-            },
-            {
-                nombre: 'Bitbucket',
-                porcentaje: "91%"
-            },
-            {
-                nombre: 'Jiras',
-                porcentaje: "85%"
-            },
-            {
                 nombre: 'Photoshop',
                 porcentaje: "81%"
-            },
-            {
-                nombre: 'Mysql',
-                porcentaje: "95%"
-            },
-            {
-                nombre: 'Sql',
-                porcentaje: "75%"
-            },
-
-
+            }
         ],
         profesionales: [
             {
@@ -212,7 +191,7 @@ export default function Home() {
                 porcentaje: "90%"
             },
             {
-                nombre: 'Dedicacion',
+                nombre: 'Dedicación',
                 porcentaje: "99%"
             },
             {
@@ -310,7 +289,7 @@ export default function Home() {
             <section id="inicio" className="inicio">
                 <div className="contenido-banner">
                     <div className="contenedor-img">
-                        <img src="../public/img/hero.png" alt="" />
+                        <img src="/img/hero.png" alt="" />
                     </div>
                     <h1>RONALDO SMIT</h1>
                     <h2>Ingeniero de Informatico - Desarrollador Web</h2>
@@ -407,17 +386,18 @@ export default function Home() {
                                 </div>
                                 <div className="interes">
                                     <i className="fa-solid fa-laptop-code"></i>
-                                    <span>DESARROLLAR</span>
+                                    <span>CODEAR</span>
                                 </div>
 
 
                             </div>
                         </div>
                     </div>
-                    <button>
-                        Descargar CV <i className="fa-solid fa-download"></i>
-                        <span className="overlay"></span>
-                    </button>
+                    <Link to={'https://api.sistemaboticarosa.com//archivo/cv/CV_ronaldo.pdf'} className="no-underline" target="_blank">
+                        <button>  Descargar CV <i className="fa-solid fa-download"></i>
+                            <span className="overlay"></span>
+                        </button>
+                    </Link>
                 </div>
             </section>
 
@@ -505,7 +485,7 @@ export default function Home() {
 
             <section id="portfolio" className="portfolio">
                 <div className="contenido-seccion">
-                    <h2>PORTFOLIO</h2>
+                    <h2>PORTAFOLIO</h2>
                     <div className="galeria">
                         {portafolioWeb.map((item, i) =>
                             <Link key={i} to={item.url} target="_blank">
