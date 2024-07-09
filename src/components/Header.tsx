@@ -1,15 +1,9 @@
 import { useState } from "react";
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 export default function Header() {
     const [menuVisible, SetMenuVisible] = useState(false);
-    const seleccionar = () => {
-        //oculto el menu una vez que selecciono una opcion
-        const nav = document.getElementById("nav");
-        if (nav) {
-            nav.classList.remove("responsive");
-        }
-        SetMenuVisible(false);
-    };
+
     const mostrarOcultarMenu = () => {
         const nav: any = document.getElementById("nav");
         if (menuVisible) {
@@ -27,11 +21,12 @@ export default function Header() {
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onClick={seleccionar}>INICIO</a></li>
-                    <li><a href="#sobremi" onClick={seleccionar}>SOBRE MI</a></li>
-                    <li><a href="#skills" onClick={seleccionar}>HABILIDADES</a></li>
-                    <li><a href="#curriculum" onClick={seleccionar}>CURRICULUM</a></li>
-                    <li><a href="#portfolio" onClick={seleccionar}>PORTAFOLIO</a></li>
+
+                    <li><Link to={"/"}>INICIO</Link></li>
+                    <li><Link to={"/AcercaDeMi"}>SOBRE MI</Link></li>
+                    <li><Link to={"/Habilidades"}>HABILIDADES</Link></li>
+                    <li><Link to={"/Curriculo"}>CURRICULUM</Link></li>
+                    <li><Link to={"/Portafolio"}>PORTAFOLIO</Link></li>
                 </ul>
             </nav>
             <div className={styles['nav-responsive']} onClick={mostrarOcultarMenu}>

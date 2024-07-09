@@ -44,3 +44,8 @@
     cursor: pointer;
     display: none;
   }
+  @media (max-width:768px){
+    .nav-responsive{
+      display: block;
+    }
+  }

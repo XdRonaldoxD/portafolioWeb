@@ -7,7 +7,7 @@
   background: linear-gradient(
       to top,
       rgba(30, 35, 38, 0.8),
-      rgba(30, 35, 38, 1)
+      rgb(28 182 152)
     ),
     url(/img/fondo.jpg);
   background-size: cover;
@@ -19,7 +19,7 @@
 .inicio .contenido-banner {
   padding: 20px;
   background-color: #1e2326;
-  max-width: 350px;
+  max-width: 80%;
   margin: auto;
   text-align: center;
   border-radius: 40px;
@@ -33,7 +33,7 @@
   border-radius: 100%;
 }
 .inicio .contenido-banner h1 {
-  margin-top: 40px;
+  
   font-size: 42px;
   font-family: "Righteous";
 }
@@ -742,5 +742,8 @@
   }
   .contacto .fila .col {
     width: 100%;
+  }
+  .inicio{
+    height: 150vh;
   }
 }
