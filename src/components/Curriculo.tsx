@@ -1,8 +1,7 @@
 import Footer from "./Footer"
 import Header from "./Header"
-
+import styles from './Curriculo.module.css';
 export const Curriculo = () => {
-
     //HOJA DE VIDA--------------------------
     const hojaVida = {
         educaion: [
@@ -89,13 +88,13 @@ export const Curriculo = () => {
             <Header />
             <section id="curriculum" className="curriculum">
                 <div className="contenido-seccion">
-                    <h2>Hoja De Vida</h2>
+                    <h2 className={`${styles['animacion-timeline']}`}>Hoja De Vida</h2>
                     <div className="fila">
                         <div className="col izquierda">
-                            <h3>Educación</h3>
+                            <h3 className={`${styles['animacion-timeline']}`}>Educación</h3>
                             {
                                 hojaVida.educaion.map((item, i) =>
-                                    <div key={i} className="item izq">
+                                    <div key={i} className={`${styles['animacion-timeline']} item izq` } >
                                         <h4>{item.titulo}</h4>
                                         <span className="casa">{item.instituto}</span>
                                         <span className="fecha">{item.fecha}</span>
@@ -108,10 +107,10 @@ export const Curriculo = () => {
                             }
                         </div>
                         <div className="col derecha">
-                            <h3>Experiencia de trabajo</h3>
+                            <h3 className={`${styles['animacion-timeline']}`}>Experiencia de trabajo</h3>
                             {
                                 hojaVida.experiencia.map((item, i) =>
-                                    <div key={i} className="item der">
+                                    <div key={i} className={`${styles['animacion-timeline']} item der` }>
                                         <h4>{item.titulo}</h4>
                                         <span className="casa">{item.instituto}</span>
                                         <span className="fecha">{item.fecha}</span>

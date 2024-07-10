@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-
+import 'animate.css';
 const Habilidades = () => {
     const skillsRef = useRef(null);
 
@@ -55,10 +55,10 @@ const Habilidades = () => {
             <Header />
             <section className="skills" id="skills">
                 <div className="contenido-seccion" ref={skillsRef}>
-                    <h2>Habilidades</h2>
+                    <h2 className='animate__animated animate__backInDown'>Habilidades</h2>
                     <div className="fila">
-                        <div className="col">
-                            <h3>Habilidades Tecnicas</h3>
+                        <div className="col ">
+                            <h3 className='animate__animated animate__backInDown'>Habilidades Tecnicas</h3>
                             {habilidades.tecnicas.map((item, i) => (
                                 <div key={i} className="skill">
                                     <span>{item.nombre}</span>
@@ -71,7 +71,7 @@ const Habilidades = () => {
                             ))}
                         </div>
                         <div className="col">
-                            <h3>Habilidades Profesionales</h3>
+                            <h3 className='animate__animated animate__backInDown'>Habilidades Profesionales</h3>
                             {habilidades.profesionales.map((item, i) => (
                                 <div key={i} className="skill">
                                     <span>{item.nombre}</span>

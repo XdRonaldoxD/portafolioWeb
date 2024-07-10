@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import { Link } from "react-router-dom";
 export default function Header() {
+    useEffect(() => {
+        // Scroll to the top of the window when the component mounts
+        window.scrollTo(0, 0);
+    }, []);
     const [menuVisible, SetMenuVisible] = useState(false);
 
     const mostrarOcultarMenu = () => {
@@ -17,7 +21,7 @@ export default function Header() {
     return (<div className={styles['contenedor-header']}>
         <header>
             <div className={styles['logo']}>
-                <a href="#">RONALDO</a>
+                <Link to={"/"}>RONALDO</Link>
             </div>
             <nav id="nav">
                 <ul>

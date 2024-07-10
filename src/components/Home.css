@@ -17,10 +17,11 @@
   align-items: center;
 }
 .inicio .contenido-banner {
-  padding: 20px;
+  padding: 3rem;
   background-color: #1e2326;
   max-width: 80%;
   margin: auto;
+  margin-top: 6rem;
   text-align: center;
   border-radius: 40px;
 }
@@ -560,7 +561,7 @@
   cursor: pointer;
 }
 .portfolio .galeria .proyecto img {
-  width: 100%;
+  /* width: 100%; */
   display: block;
 }
 .portfolio .galeria .proyecto .overlay {

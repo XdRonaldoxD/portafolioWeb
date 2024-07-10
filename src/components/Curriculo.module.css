@@ -1,0 +1,26 @@
+@keyframes show {
+    from {
+      opacity: 0;
+      transform: scale(0.25);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @scroll-timeline timeline {
+    source: auto;
+    orientation: block;
+    scroll-offsets: 0% 100%;
+  }
+  
+  .animacion-timeline {
+    opacity: 0;
+    transform: scale(0.25);
+    animation-name: show;
+    animation-timeline: timeline;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  

@@ -2,15 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
-
+import 'animate.css';
 export const AcercaDeMi = () => {
     return (
         <>
         <Header />
         <section id="sobremi" className="sobremi">
             <div className="contenido-seccion">
-                <h2>Sobre Mí</h2>
-                <p><span>Hola, soy Ronaldo Smit Durand Luna</span> un desarrollador Full Stack, con Bachiller en Ingeniería Informática. He demostrado mi capacidad
+                <h2 className='animate__animated animate__backInDown'>Sobre Mí</h2>
+                <p className='animate__animated animate__flash' ><span>Hola, soy Ronaldo Smit Durand Luna</span> un desarrollador Full Stack, con Bachiller en Ingeniería Informática. He demostrado mi capacidad
                     para crear soluciones tecnológicas efectivas que generan un impacto positivo en el negocio. Desarrollé diferentes sistemas la cuales un sistema
                     de lo mas grande fue un CRM para una empresa veterinaria en Chile que aumento su eficiencia operativa en un 80%. Mi enfoque
                     se basa en comprender los requisitos comerciales y las necesidades de los usuarios para crear herramientas
@@ -23,7 +23,7 @@ export const AcercaDeMi = () => {
                     Constantemente estoy mejorando tanto mis habilidades técnicas como mis habilidades blandas, lo que me
                     permite enfrentar desafíos complejos con confianza y eficacia.</p>
                 <div className="fila">
-                    <div className="col">
+                    <div className="col animate__animated animate__backInDown">
                         <h3>Datos Personales</h3>
                         <ul>
                             <li>
@@ -53,7 +53,7 @@ export const AcercaDeMi = () => {
                         </ul>
                     </div>
 
-                    <div className="col">
+                    <div className="col animate__animated animate__backInDown">
                         <h3>Intereses</h3>
                         <div className="contenedor-intereses">
                             <div className="interes">
