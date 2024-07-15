@@ -557,7 +557,7 @@
   position: relative;
   max-width: 340px;
   height: fit-content;
-  margin: 10px;
+  /* margin: 10px; */
   cursor: pointer;
 }
 .portfolio .galeria .proyecto img {
