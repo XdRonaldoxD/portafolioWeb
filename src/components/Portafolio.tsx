@@ -81,7 +81,6 @@ export const Portafolio = () => {
                 { icon: <IconoAngular />, name: 'Angular' },
                 { icon: <IconoCss />, name: 'Css' },
                 { icon: <IconoJavacript />, name: 'Javascript' },
-                { icon: <IconoBoostrap />, name: 'Boostrap' },
                 { icon: <IconoHtml5 />, name: 'Html5' },
                 { icon: <IconoAngularMaterial />, name: 'Angular Material' }
             ]
@@ -94,7 +93,6 @@ export const Portafolio = () => {
             subtitulo: "SISTEMA WEB",
             tecnologia: [
                 { icon: <i className="fab fa-laravel p-[0.2rem] rounded  bg-orange-500 text-white"></i>, name: 'Laravel' },
-                { icon: <IconoAngular />, name: 'Angular' },
                 { icon: <IconoCss />, name: 'Css' },
                 { icon: <IconoJavacript />, name: 'Javascript' },
                 { icon: <IconoJquery />, name: 'Jquery' },
