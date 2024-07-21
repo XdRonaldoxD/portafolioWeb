@@ -1,15 +1,6 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
-import { Tooltip } from 'react-tooltip';
-import style from "./Portafolio.module.css";
-import { IconoTypescript } from '../iconos/IconoTypescript';
-import { IconoNextjs } from '../iconos/IconoNextjs';
-import { IconoFigma } from '../iconos/IconoFigma';
-import { IconoMysql } from '../iconos/IconoMysql';
-import { IconoAmazonWebServide } from '../iconos/IconoAmazonWebServide';
-import { IconoMaterialUI } from '../iconos/IconoMaterialUI';
 import { IconoReact } from '../iconos/IconoReact';
 import { IconoJquery } from '../iconos/IconoJquery';
 import { IconoHtml5 } from '../iconos/IconoHtml5';

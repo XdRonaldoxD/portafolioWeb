@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const IconoMaterialUI = () => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 256 222" width="20" height="20">
