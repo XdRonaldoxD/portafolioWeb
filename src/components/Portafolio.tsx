@@ -91,7 +91,7 @@ export const Portafolio = () => {
                 { icon: <IconoCss />, name: 'Css' },
                 { icon: <IconoJavacript />, name: 'Javascript' },
                 { icon: <IconoBoostrap />, name: 'Boostrap' },
-                { icon: <IconoHtml5 />, name: 'Html5' }
+                { icon: <IconoHtml5 />, name: 'Html5' },
                 { icon: <IconoAngularMaterial />, name: 'Angular Material' }
             ]
         },
