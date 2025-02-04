@@ -22,7 +22,7 @@ export default function Home() {
                     <div className="w-full md:w-1/2">
                         <h1 className="text-center mt-4 md:mt-0 animate__animated animate__backInDown">RONALDO SMIT</h1>
                         <h2 className="text-center md:text-justify mt-4 animate__animated animate__pulse">
-                            Soy un Ingeniero Informático y Desarrollador Full Stack con experiencia en el desarrollo de aplicaciones web. Desde Perú 🇵🇪.
+                            Soy Ingeniero Informático y Desarrollador Full Stack con experiencia en el desarrollo de aplicaciones web. Desde Perú 🇵🇪.
                         </h2>
                     </div>
                 </div>

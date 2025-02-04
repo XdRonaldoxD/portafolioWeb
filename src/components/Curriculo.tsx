@@ -6,6 +6,15 @@ export const Curriculo = () => {
     const hojaVida = {
         educaion: [
             {
+                titulo: 'FULL STACK',
+                instituto: 'EGG LIVE',
+                fecha: '02/2024 - 12/2024',
+                descripcion: `Durante este curso, aprendí tecnologías esenciales para el desarrollo Full Stack. Desde lo básico hasta lo avanzado en React, incluyendo el manejo de Redux para la gestión de estados. 
+                     También estudié Java, adquiriendo sólidos conocimientos en Programación Orientada a Objetos (POO), el patrón de diseño MVC, JPA y la creación de CRUDs básicos.
+                     Aprendí el framework Spring de Java, comprendiendo sus conceptos clave y aplicándolos en proyectos.
+                     Además, reforcé mis conocimientos de HTML, CSS y JavaScript, y aprendí a trabajar con bases de datos PostgreSQL, integrando React para el frontend y Java para el backend.`
+            },
+            {
                 titulo: 'Ingles Basico I',
                 instituto: 'Instituto De Idiomas',
                 fecha: '09/2022 - 09/2023',
@@ -51,21 +60,26 @@ export const Curriculo = () => {
         experiencia: [
             {
                 titulo: 'Full Stack Developer',
-                instituto: 'Wilsoft Asesorías y Sistemas',
+                instituto: 'CISTCOR NETWORKS (HUANUCO)',
+                fecha: '09/2024 - Actualmente',
+                descripcion: `En esta empresa, he fortalecido mis habilidades en desarrollo Full Stack, trabajando con tecnologías modernas como Laravel en su última versión, Vue CLI, HTML, CSS, Bootstrap y SCSS para el diseño y estilos de las aplicaciones. He implementado migraciones en Laravel para gestionar esquemas de bases de datos de manera eficiente, asegurando la escalabilidad y mantenibilidad de los sistemas.
+                            Además, he desarrollado y dado soporte a un sistema multi-tenant, donde gestiono módulos con errores, optimizo código para evitar la saturación del servidor y aseguro un rendimiento óptimo. Utilizo GitLab para la gestión de repositorios y la colaboración en equipo, así como la creación de CRON jobs para automatizar procesos recurrentes.
+                            Mi experiencia incluye la gestión de incidencias mediante Jira, donde priorizo y resuelvo problemas técnicos de manera eficiente. También he trabajado en la optimización de consultas y procesos en bases de datos MySQL, garantizando un funcionamiento fluido y seguro de los sistemas.
+                            En este rol, he combinado mis conocimientos en desarrollo Backend y Frontend para crear soluciones robustas y escalables, siempre enfocado en la satisfacción del cliente y la mejora continua de los sistemas implementados.`
+            },
+            {
+                titulo: 'Full Stack Developer',
+                instituto: 'WILFSOFT ASESORIAS Y SISTEMAS (CHILE)',
                 fecha: '05/2019 - Actualmente',
-                descripcion: `En esta empresa, he adquirido experiencia en programación, encriptación de información, y optimización de código. 
-                          He trabajado con bases de datos MySQL, optimizando consultas y mejorando procesos para asegurar que el servidor funcione sin problemas durante la compilación. 
-                          Desarrollé un sistema CRM multifuncional para diversas empresas veterinarias en Chile, así como una plataforma de comercio electrónico utilizando WooCommerce para la venta en línea de productos. 
-                          Implementé tecnologías web como HTML, CSS, JavaScript, jQuery, y consumí APIs REST en el sistema CRM desarrollado con Laravel/PHP.
-                          También desarrollé páginas en PHP para clientes, utilizando Bitbucket para la gestión de repositorios y Jira para el manejo de incidencias y soporte diario del sistema.
-                          Documentamos exhaustivamente el código del sistema y realizamos pruebas unitarias. 
-                          Además, he utilizado encriptación con Python para el manejo de reportes de grandes volúmenes de datos y la optimización del proceso, asegurando la seguridad y eficiencia en el manejo de la información.
-                          Brindo soporte remoto a los clientes para mejorar sus módulos según sus requerimientos, asegurando su satisfacción con el mantenimiento continuo del sistema. 
-                          Mi enfoque en la optimización del código y la eficiencia del servidor garantiza una visualización y rendimiento óptimos de los sistemas implementados.`
+                descripcion: `En esta empresa, he adquirido experiencia en programación, encriptación de información y optimización de código. He trabajado con bases de datos relacionales como MySQL, PostgreSQL y SQL Server, donde he optimizado consultas, diseñado esquemas eficientes y realizado migraciones de datos para garantizar un rendimiento óptimo y la escalabilidad de los sistemas.
+                            Desarrollé un sistema CRM multifuncional para diversas empresas veterinarias en Chile, así como una plataforma de comercio electrónico utilizando WooCommerce para la venta en línea de productos. Implementé tecnologías web como HTML, CSS, JavaScript, jQuery, y consumí APIs REST en el sistema CRM desarrollado con Laravel/PHP. Además, he gestionado bases de datos en MySQL y PostgreSQL, realizando tareas como la normalización de datos, optimización de índices y respaldos automatizados para asegurar la integridad y disponibilidad de la información.
+                            También desarrollé páginas en PHP para clientes, utilizando Bitbucket para la gestión de repositorios y Jira para el manejo de incidencias y soporte diario del sistema. Documentamos exhaustivamente el código del sistema y realizamos pruebas unitarias para garantizar la calidad del software.
+                            En proyectos que requerían mayor escalabilidad, utilicé SQL Server para gestionar grandes volúmenes de datos, implementando procedimientos almacenados y optimizando consultas complejas. Además, he utilizado encriptación con Python para el manejo de reportes de grandes volúmenes de datos y la optimización del proceso, asegurando la seguridad y eficiencia en el manejo de la información.
+                            Brindo soporte remoto a los clientes para mejorar sus módulos según sus requerimientos, asegurando su satisfacción con el mantenimiento continuo del sistema. Mi enfoque en la optimización del código, la eficiencia del servidor y la gestión de bases de datos garantiza un rendimiento óptimo y una experiencia fluida para los usuarios finales.`
             },
             {
                 titulo: 'Programador BackEnd',
-                instituto: 'Oficina de la Unidad Funcional de Desarrollo Tecnológico (DIRESA LIMA)',
+                instituto: 'OFICINA UNIDAD FUNCIONAL DE DESARROLLO TECNOLOGICO (DIRESA LIMA)',
                 fecha: '09/2019 - 01/2020',
                 descripcion: `Durante mi pasantía en esta empresa, adquirí experiencia como programador backend. 
                               Trabajé con la tecnología Laravel junto con el framework Angular para desarrollar un sistema de gestión de inventario de documentos. 
@@ -74,7 +88,7 @@ export const Curriculo = () => {
             },
             {
                 titulo: 'Soporte y Desarrollo de Software',
-                instituto: 'Oficina de Servicios Informáticos de la Universidad Nacional José Faustino',
+                instituto: 'OFICINA DE SERVICIOS INFORMATICO UNIVERSIDAD NACIONAL JOSE FAUSTINO (HUACHO LIMA)',
                 fecha: '02/2019 - 05/2020',
                 descripcion: `Durante mi pasantía en esta institución, adquirí conocimientos en el flujo del sistema, lo que me permitió trabajar en la asistencia del personal y manejar incidencias del software. 
                               Desarrollé habilidades para identificar y resolver conflictos relacionados con el sistema, así como para brindar apoyo a los diferentes institutos con problemas del sistema.
@@ -94,7 +108,7 @@ export const Curriculo = () => {
                             <h3 className={`${styles['animacion-timeline']}`}>Educación</h3>
                             {
                                 hojaVida.educaion.map((item, i) =>
-                                    <div key={i} className={`${styles['animacion-timeline']} item izq` } >
+                                    <div key={i} className={`${styles['animacion-timeline']} item izq`} >
                                         <h4>{item.titulo}</h4>
                                         <span className="casa">{item.instituto}</span>
                                         <span className="fecha">{item.fecha}</span>
@@ -110,7 +124,7 @@ export const Curriculo = () => {
                             <h3 className={`${styles['animacion-timeline']}`}>Experiencia de trabajo</h3>
                             {
                                 hojaVida.experiencia.map((item, i) =>
-                                    <div key={i} className={`${styles['animacion-timeline']} item der` }>
+                                    <div key={i} className={`${styles['animacion-timeline']} item der`}>
                                         <h4>{item.titulo}</h4>
                                         <span className="casa">{item.instituto}</span>
                                         <span className="fecha">{item.fecha}</span>

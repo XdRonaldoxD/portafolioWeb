@@ -10,9 +10,26 @@ import { IconoCss } from '../iconos/IconoCss';
 import { IconoBoostrap } from '../iconos/IconoBoostrap';
 import { IconoAngularMaterial } from '../iconos/IconoAngularMaterial';
 import { IconoTailwind } from '../iconos/IconoTailwind';
+import { IconoVue } from '../iconos/IconoVue';
+import { IconoScss } from '../iconos/IconoScss';
 export const Portafolio = () => {
     // DATOS DEL PORTAFOLIO----------------
     const portafolioWeb = [
+        {
+            img: "img/cistcorfact.png",
+            url: "https://demo.devcistcor.cloud",
+            titulo: "SISTEMA FACTURACIÓN ELECTRONICO",
+            descripcion: "Sitio web donde emita comprobantes electrónicos tanto como Boletas, Facturas y Notas de Ventas",
+            subtitulo: "SISTEMA WEB",
+            tecnologia: [
+                { icon: <i className="fab fa-laravel p-[0.2rem] rounded  bg-orange-500 text-white"></i>, name: 'Laravel' },
+                { icon: <IconoVue />, name: 'Vue' },
+                { icon: <IconoCss />, name: 'Css' },
+                { icon: <IconoScss />, name: 'Scss' },
+                { icon: <IconoBoostrap />, name: 'Boostrap' },
+                { icon: <IconoHtml5 />, name: 'Html5' }
+            ]
+        },
         {
             img: "img/sistemaBoticaRosa.png",
             url: "https://sistemaboticarosa.com",
@@ -234,7 +251,13 @@ export const Portafolio = () => {
         }
     ]
     //-------------------------------------
-
+    const handleItemClick = (item) => {
+        // Aquí puedes abrir un modal, mostrar detalles, etc.
+        console.log("Elemento clickeado:", item);
+        // Por ejemplo, abrir un modal:
+        // setSelectedItem(item);
+        // setIsModalOpen(true);
+    };
     return (
         <>
             <Header />
@@ -242,29 +265,31 @@ export const Portafolio = () => {
                 <div className="contenido-seccion">
                     <h2>PORTAFOLIO</h2>
                     <div className='flex flex-wrap'>
-                        {portafolioWeb.map((item, i) =>
+                        {portafolioWeb.map((item, i) => (
                             <div key={i} className='w-full sm:w-1/2 lg:w-1/3 p-2 flex justify-center'>
                                 <div className="max-w-sm bg-gray-800 border border-gray-700 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                                    <Link to={item.url} target="_blank">
+                                    {/* Eliminamos el Link y agregamos onClick */}
+                                    <div onClick={() => handleItemClick(item)} style={{ cursor: 'pointer' }}>
                                         <img className="rounded-t-lg" src={item.img} alt="" />
-                                    </Link>
+                                    </div>
                                     <div className="p-5">
-                                        <Link to={item.url} target="_blank">
+                                        {/* Eliminamos el Link y agregamos onClick */}
+                                        <div onClick={() => handleItemClick(item)} style={{ cursor: 'pointer' }}>
                                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">{item.titulo}</h5>
-                                        </Link>
+                                        </div>
                                         <p className="mb-3 font-normal text-gray-100 dark:text-gray-400">{item.descripcion}</p>
                                         <ul className="flex-wrap w-full flex gap-2 pt-5 p-1">
-                                            {item.tecnologia.map((tec, index) =>
+                                            {item.tecnologia.map((tec, index) => (
                                                 <li key={index} className="capitalize font-medium text-xs shadow-sm rounded flex justify-center items-center gap-2 px-2.5 py-1 bg-quat">
                                                     {tec.icon}
                                                     {tec.name}
                                                 </li>
-                                            )}
+                                            ))}
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                        )}
+                        ))}
                     </div>
                 </div>
             </section>
