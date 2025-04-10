@@ -20,7 +20,7 @@ const Habilidades = () => {
     // Función para obtener la clase de habilidad basada en el índice
     const getSkillClass = (index) => {
         const classes = [
-            'javascript', 'phplaravel', 'angularcli', 'python', 'htmlcss',
+            'javascript', 'phplaravel', 'javaspringboot','angularcli', 'python', 'htmlcss',
             'bitbucket', 'mysql', 'jiras', 'offices', 'photoshop',
             'comunicacion', 'team', 'creatividad', 'dedicacion', 'proyect'
         ];
@@ -32,21 +32,22 @@ const Habilidades = () => {
         tecnicas: [
             { nombre: 'Javascript / Jquery', porcentaje: "84%" },
             { nombre: 'Php / Laravel', porcentaje: "85%" },
-            { nombre: 'Angular Cli (Typescript) / React (js)', porcentaje: "78%" },
+            { nombre: 'Java / Spring Boot', porcentaje: "85%" },
+            { nombre: 'Angular CLI / React CLI / Vue CLI', porcentaje: "90%" },
             { nombre: 'Python', porcentaje: "65%" },
-            { nombre: 'HTML / CSS / Boostrap', porcentaje: "89%" },
-            { nombre: 'GitHub / BitBucket', porcentaje: "91%" },
-            { nombre: 'Mysql / Sql', porcentaje: "90%" },
-            { nombre: 'Jiras / Postman', porcentaje: "85%" },
-            { nombre: 'Offices', porcentaje: "87%" },
+            { nombre: 'HTML / CSS / Boostrap / Tailwind CSS', porcentaje: "89%" },
+            { nombre: 'Git / GitHub / GitLab / BitBucket', porcentaje: "91%" },
+            { nombre: 'Mysql / PostgreSQL / Sql', porcentaje: "90%" },
+            { nombre: 'Jiras ', porcentaje: "85%" },
+            { nombre: 'Offices / Postman', porcentaje: "87%" },
             { nombre: 'Photoshop', porcentaje: "81%" }
         ],
         profesionales: [
-            { nombre: 'Comunicación', porcentaje: "80%" },
-            { nombre: 'Trabajo en Equipo', porcentaje: "85%" },
+            { nombre: 'Comunicación', porcentaje: "90%" },
+            { nombre: 'Trabajo en Equipo', porcentaje: "90%" },
             { nombre: 'Creatividad', porcentaje: "90%" },
             { nombre: 'Dedicación', porcentaje: "99%" },
-            { nombre: 'Gestión De Proyectos', porcentaje: "84%" }
+            { nombre: 'Gestión De Proyectos', porcentaje: "90%" }
         ]
     };
 

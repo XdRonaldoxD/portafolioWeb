@@ -8,12 +8,16 @@ export const AcercaDeMi = () => {
             <section id="sobremi" className="sobremi">
                 <div className="contenido-seccion">
                     <h2 className='animate__animated animate__backInDown'>Sobre Mí</h2>
-                    <p className='animate__animated animate__flash'>
-                        <span>Hola, soy Ronaldo Smit Durand Luna</span>, un desarrollador Full Stack con Bachiller en Ingeniería Informática. Cuento con una sólida experiencia en la creación de soluciones tecnológicas que generan un impacto positivo en los negocios. Un ejemplo destacado es el desarrollo de un CRM para una empresa veterinaria en Chile, el cual incrementó su eficiencia operativa en un 80%. Mi enfoque se basa en comprender a fondo los requisitos comerciales y las necesidades de los usuarios para diseñar herramientas que satisfagan sus demandas de manera efectiva.
-                        Me apasiona el aprendizaje continuo y me mantengo actualizado con las últimas tendencias tecnológicas. En el ámbito del desarrollo Backend, tengo experiencia en el uso de <strong>Laravel, PHP y Java</strong>, mientras que en el Frontend he trabajado con frameworks como <strong>Angular, React y Vue CLI</strong>, además de tecnologías como <strong>JavaScript y jQuery</strong>. También he implementado sistemas de facturación electrónica para Chile y Perú, incluyendo la integración de un sistema de Órdenes de Servicio Electrónicas (OSE) que facilita la emisión de facturas en ambos países.
-                        En cuanto a bases de datos, tengo experiencia en el diseño, implementación y optimización de bases de datos relacionales utilizando <strong>MySQL, PostgreSQL y SQL Server</strong>. He trabajado en la creación de esquemas eficientes, consultas complejas, optimización de rendimiento y migración de datos, asegurando la integridad y escalabilidad de los sistemas.
-                        Además, he participado en la corrección y mejora de proyectos existentes, brindando soporte técnico y realizando mantenimientos para optimizar su funcionamiento y garantizar su continuidad operativa. Mi enfoque proactivo y mi capacidad para resolver problemas me permiten enfrentar desafíos complejos con confianza y eficacia.
-                        Constantemente trabajo en mejorar tanto mis habilidades técnicas como mis habilidades blandas, lo que me permite colaborar efectivamente en equipos multidisciplinarios y aportar valor en cada proyecto en el que participo.
+                    <p className='animate__animated animate__flash justify-text'>
+                        Soy <span>Ronaldo Smit Durand Luna</span>, un <strong>desarrollador Full Stack</strong> con Bachiller en <strong>Ingeniería Informática</strong> y una sólida trayectoria en la creación, optimización y mantenimiento de sistemas web. Mi enfoque se centra en  <strong>resolver problemas complejos, mejorar el rendimiento y garantizar la escalabilidad</strong> de las aplicaciones que desarrollo, siempre con un compromiso hacia la mejora continua y la entrega de soluciones de calidad.
+                        En el <strong>Backend</strong>, tengo experiencia trabajando con <strong>Php y Java</strong>, aprovechando los potentes frameworks <strong>Laravel y Spring Boot</strong> para construir sistemas web con APIs robustas y de alto rendimiento. En el <strong>Frontend</strong>, manejo tecnologías como <strong> Angular, React y Vue CLI</strong>, complementadas con <strong>JavaScript, jQuery, CSS y SCSS,</strong> aplicando principios de diseño responsive y optimización para asegurar una experiencia de usuario fluida y atractiva.
+                        Además, tengo experiencia con <strong>Bootstrap y Tailwind CSS</strong>, que me han permitido crear interfaces modernas y eficientes con un enfoque visual intuitivo.
+                        En cuanto a bases de datos, tengo un sólido conocimiento en <strong>MySQL, PostgreSQL y SQL Server</strong>, diseñando esquemas eficientes y realizando consultas complejas, así como optimización y migración de datos para garantizar la escalabilidad y el buen rendimiento del sistema.
+                        Mi experiencia también incluye la gestión de proyectos y control de versiones, utilizando herramientas como <strong>Git, GitLab, Bitbucket y Jira</strong>, lo que me permite colaborar eficazmente en equipos multidisciplinarios y ágiles.
+                        Me considero una persona <strong>proactiva</strong>, con habilidades sólidas para la <strong>resolución de problemas</strong> y una mentalidad orientada a la <strong>mejora constante</strong>.
+                        Mi objetivo siempre es aportar valor tangible en cada proyecto, y mi enfoque centrado en el cliente me ha permitido desarrollar soluciones que resuelven necesidades reales y generan un impacto positivo.
+                        Un ejemplo destacado de mi trabajo fue el desarrollo de un <strong>CRM para una empresa veterinaria en Chile</strong>, que <strong>incrementó la eficiencia operativa en un 80%</strong>, optimizando procesos internos y mejorando significativamente la atención al cliente.
+                        Además, tengo experiencia en la implementación de sistemas de facturación electrónica para <strong>Chile y Perú</strong>, con la integración de un sistema de <strong>Órdenes de Servicio Electrónicas (OSE)</strong> que facilita la emisión de facturas en ambos países, cumpliendo con todos los requisitos legales y técnicos.
                     </p>
                     <div className="fila">
                         <div className="col animate__animated animate__backInDown">
@@ -33,7 +37,7 @@ export const AcercaDeMi = () => {
                                 </li>
                                 <li>
                                     <strong>Website</strong>
-                                    www.example.com
+                                    <a href='https://rdurandlunadev.online/' target='_blank'>rdurandlunadev.online</a>
                                 </li>
                                 <li>
                                     <strong>Dirección</strong>

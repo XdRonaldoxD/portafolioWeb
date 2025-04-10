@@ -67,6 +67,12 @@
   max-width: 1100px;
   margin: auto;
 }
+.justify-text{
+  text-align: justify;
+}
+.d-none{
+  display: none;
+}
 .sobremi h2 {
   font-size: 48px;
   font-family: "Righteous";
@@ -245,6 +251,19 @@
   }
 }
 
+.skills .skill .javaspringboot {
+  width: 0%;
+  animation: 2s javaspringboot forwards;
+}
+@keyframes javaspringboot {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
 .skills .skill .angularcli {
   width: 0%;
   animation: 2s angularcli forwards;
@@ -372,7 +391,7 @@
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -385,7 +404,7 @@
     width: 0%;
   }
   100% {
-    width: 85%;
+    width: 90%;
   }
 }
 
@@ -424,7 +443,7 @@
     width: 0%;
   }
   100% {
-    width: 94%;
+    width: 90%;
   }
 }
 /* SECCION CURRICULUM */
