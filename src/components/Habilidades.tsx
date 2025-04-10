@@ -30,8 +30,8 @@ const Habilidades = () => {
     // Datos de habilidades técnicas y profesionales
     const habilidades = {
         tecnicas: [
-            { nombre: 'Javascript / Jquery', porcentaje: "84%" },
-            { nombre: 'Php / Laravel', porcentaje: "85%" },
+            { nombre: 'Javascript / Jquery', porcentaje: "90%" },
+            { nombre: 'Php / Laravel', porcentaje: "90%" },
             { nombre: 'Java / Spring Boot', porcentaje: "85%" },
             { nombre: 'Angular CLI / React CLI / Vue CLI', porcentaje: "90%" },
             { nombre: 'Python', porcentaje: "65%" },
