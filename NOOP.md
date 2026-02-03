@@ -1,0 +1,1 @@
+docs(quality): añadir README sobre uso de IA en PRs y procesos
