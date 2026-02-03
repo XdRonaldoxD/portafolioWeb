@@ -20,7 +20,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
-                        <h1 className="text-center mt-4 md:mt-0 animate__animated animate__backInDown">RONALDO SMIT</h1>
+                        <h1 className="text-center mt-4 md:mt-0 animate__animated animate__backInDown">Ronaldo Durand</h1>
                         <h2 className="text-center md:text-justify mt-4 animate__animated animate__pulse">
                             Soy Ingeniero Informático y Desarrollador Full Stack con experiencia en el desarrollo de aplicaciones web. Desde Perú 🇵🇪.
                         </h2>
