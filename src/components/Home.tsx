@@ -11,7 +11,7 @@ export default function Home() {
                 <div className="contenido-banner flex flex-col md:flex-row items-center justify-center">
                     <div className="w-full md:w-1/2 animate__animated animate__bounceIn">
                         <div className="contenedor-img mx-auto sm:w-3/4 md:w-1/2 lg:w-3/4 xl:w-1/2">
-                            <img src="/img/hero.png" alt="" className="mx-auto w-full h-auto" />
+                            <img src="/img/hero.png" alt="Imagen de presentación" loading="lazy" className="mx-auto w-full h-auto" />
                         </div>
                         <div className="redes flex justify-center mt-4 ">
                             <Link to={'https://www.facebook.com/smith.durandluna/'} target="_blank" className="ml-4"><i className="fa-brands fa-facebook-f"></i></Link>
