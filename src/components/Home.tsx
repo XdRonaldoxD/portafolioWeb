@@ -20,9 +20,11 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
-                        <h1 className="text-center mt-4 md:mt-0 animate__animated animate__backInDown">RONALDO SMIT</h1>
-                        <h2 className="text-center md:text-justify mt-4 animate__animated animate__pulse">
-                            Soy Ingeniero Informático y Desarrollador Full Stack con experiencia en el desarrollo de aplicaciones web. Desde Perú 🇵🇪.
+                        <h1 className="text-center mt-4 md:mt-0 animate__animated animate__backInDown text-4xl font-extrabold text-blue-800 drop-shadow-lg">
+                            Ronaldo Durand
+                        </h1>
+                        <h2 className="text-center md:text-justify mt-4 animate__animated animate__pulse text-lg font-medium text-gray-700 bg-white/80 rounded-xl p-4 shadow-md">
+                            Soy Ingeniero Informático apasionado por la tecnología y el desarrollo web. Cuento con experiencia creando soluciones innovadoras y robustas como Desarrollador Full Stack. Me especializo en transformar ideas en productos digitales de alto impacto, siempre con enfoque en calidad, rendimiento y experiencia de usuario. Orgullosamente peruano 🇵🇪.
                         </h2>
                     </div>
                 </div>
