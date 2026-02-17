@@ -9,7 +9,7 @@ export const Curriculo = () => {
                 titulo: 'FULL STACK',
                 instituto: 'EGG LIVE',
                 fecha: '02/2024 - 12/2024',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/certificate_Egg.pdf",
+                pdfUrl: "/Certificados/certificate_Egg.pdf",
                 descripcion: `Durante este curso, aprendí tecnologías esenciales para el desarrollo Full Stack. Desde lo básico hasta lo avanzado en React, incluyendo el manejo de Redux para la gestión de estados. 
                      También estudié Java, adquiriendo sólidos conocimientos en Programación Orientada a Objetos (POO), el patrón de diseño MVC, JPA y la creación de CRUDs básicos.
                      Aprendí el framework Spring de Java, comprendiendo sus conceptos clave y aplicándolos en proyectos.
@@ -19,7 +19,7 @@ export const Curriculo = () => {
                 titulo: 'Ingles Basico I',
                 instituto: 'Instituto De Idiomas',
                 fecha: '09/2022 - 09/2023',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/CertificadoIngles.pdf",
+                pdfUrl: "/Certificados/CertificadoIngles.pdf",
                 descripcion: `Durante este curso, adquirí las habilidades básicas del idioma inglés. Aprendí las primeras oraciones formadas con el verbo "to be" y los pronombres personales. 
                           También aprendí a formar oraciones afirmativas, interrogativas y negativas correctamente. Además, estudiamos la pronunciación de algunas palabras, 
                           lo que me permite entender y comunicarme de manera más efectiva en inglés.`
@@ -28,7 +28,7 @@ export const Curriculo = () => {
                 titulo: 'Facturación Electrónica con PHP',
                 instituto: 'Ceti Chiclayo',
                 fecha: '07/2023 - 09/2023',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/ceti_chiclayo.pdf",
+                pdfUrl: "/Certificados/ceti_chiclayo.pdf",
                 descripcion: `Durante este curso, adquirí habilidades para desarrollar un sistema OSE (Operador de Servicios Electrónicos) utilizando PHP, 
                           que permite la emisión automática de comprobantes electrónicos a la SUNAT. Aprendí a manejar la estructura XML de los documentos electrónicos 
                           y a registrar certificados digitales necesarios para la firma electrónica, optimizando así el proceso de facturación y reduciendo la necesidad 
@@ -38,7 +38,7 @@ export const Curriculo = () => {
                 titulo: 'Ingeniero Informatico',
                 instituto: 'Universidad Nacional José Faustino Sánchez Carrión',
                 fecha: '08/2014 - 08/2019',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/Estudio_Bachiller.pdf",
+                pdfUrl: "/Certificados/Estudio_Bachiller.pdf",
                 descripcion: `Durante mi formación universitaria, adquirí conocimientos tanto teóricos como prácticos en diversas áreas de la informática. 
                           Descubrí mi pasión por el desarrollo de sistemas web y profundicé en bases de datos, aplicaciones móviles, aplicaciones de escritorio 
                           y arquitectura de software. Estas experiencias fortalecieron mis habilidades y me integraron más en el mundo de la programación, 
@@ -48,7 +48,7 @@ export const Curriculo = () => {
                 titulo: 'Algoritmos y Fundamentos de Programación',
                 instituto: 'DevMaster',
                 fecha: '01/2019 - 02/2019',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/certificados-devmaster.pdf",
+                pdfUrl: "/Certificados/certificados-devmaster.pdf",
                 descripcion: `En este curso, adquirí una comprensión sólida de los principios básicos de la programación y los algoritmos. 
                           Aprendí a mejorar mi lógica de programación y a aplicar conceptos teóricos fundamentales, lo que ha fortalecido 
                           significativamente mis habilidades como programador.`
@@ -57,7 +57,7 @@ export const Curriculo = () => {
                 titulo: 'Especialista en Microsoft Office Excel 2016',
                 instituto: 'ENVI COMPANY S.R.L',
                 fecha: '08/2018 - 11/2019',
-                pdfUrl:"https://rdurandlunadev.online/Certificados/certificadosExcel.pdf",
+                pdfUrl: "/Certificados/certificadosExcel.pdf",
                 descripcion: `Durante este curso, aprendí los fundamentos teóricos y prácticos del uso de Excel y sus herramientas avanzadas. 
                               Desarrollé un alto nivel de competencia en la utilización de macros y en la codificación con Visual Basic para Aplicaciones (VBA), 
                               lo que me permitió automatizar procesos y mejorar significativamente la eficiencia del manejo de datos en Excel.`
@@ -65,9 +65,19 @@ export const Curriculo = () => {
         ],
         experiencia: [
             {
+                titulo: 'Desarrollador Full Stack Jr. | PHP/Laravel',
+                instituto: 'Grupo KFC Ecuador',
+                fecha: '05/2025 - Actualmente',
+                pdfUrl: "",
+                descripcion: `Actualmente formo parte del equipo de desarrollo, participando en el mantenimiento y evolución de un sistema empresarial construido bajo arquitectura hexagonal, contribuyendo a la implementación de código limpio, desacoplado y escalable. Me encuentro a cargo del desarrollo de nuevas funcionalidades y la corrección de incidencias tanto en Laravel como en PHP nativo para el backend, así como en la implementación de mejoras en el frontend utilizando Vue.js. Además, participo en la creación y consumo de APIs RESTful aplicando buenas prácticas mediante métodos HTTP como GET, POST, PUT y DELETE a través de Axios.
+                            Asimismo, realizo la conexión y gestión de bases de datos SQL Server mediante FortiClient VPN, ejecutando consultas, inserciones y actualizaciones de acuerdo a los requerimientos del sistema, además de participar en la generación de reportes dinámicos en formatos PDF y Excel desde la aplicación. También colaboro en la validación de funcionalidades críticas mediante pruebas unitarias previas a su despliegue.
+                            Actualmente trabajo bajo la metodología ágil Scrum, participando en reuniones semanales, gestionando tareas y realizando seguimiento del proyecto mediante Azure DevOps, colaborando de forma continua con el equipo para el cumplimiento de los objetivos definidos en cada sprint, así como en la elaboración de documentación técnica para el pase a producción de los desarrollos realizados.`
+            },
+            {
                 titulo: 'Full Stack Developer',
                 instituto: 'CISTCOR NETWORKS (HUANUCO)',
-                fecha: '09/2024 - Actualmente',
+                fecha: '09/2024 - 09/2026',
+                pdfUrl: "/Certificados/CONSTANCIA_DE_TRABAJO_RONALDO_DURAN.pdf",
                 descripcion: `En esta empresa, he fortalecido mis habilidades en desarrollo Full Stack, trabajando con tecnologías modernas como Laravel en su última versión, Vue CLI, HTML, CSS, Bootstrap y SCSS para el diseño y estilos de las aplicaciones. He implementado migraciones en Laravel para gestionar esquemas de bases de datos de manera eficiente, asegurando la escalabilidad y mantenibilidad de los sistemas.
                             Además, he desarrollado y dado soporte a un sistema multi-tenant, donde gestiono módulos con errores, optimizo código para evitar la saturación del servidor y aseguro un rendimiento óptimo. Utilizo GitLab para la gestión de repositorios y la colaboración en equipo, así como la creación de CRON jobs para automatizar procesos recurrentes.
                             Mi experiencia incluye la gestión de incidencias mediante Jira, donde priorizo y resuelvo problemas técnicos de manera eficiente. También he trabajado en la optimización de consultas y procesos en bases de datos MySQL, garantizando un funcionamiento fluido y seguro de los sistemas.
@@ -76,7 +86,8 @@ export const Curriculo = () => {
             {
                 titulo: 'Full Stack Developer',
                 instituto: 'WILFSOFT ASESORIAS Y SISTEMAS (CHILE)',
-                fecha: '05/2019 - Actualmente',
+                fecha: '05/2019 - 06/2024',
+                pdfUrl: "/Certificados/CONSTANCIA_WILSOFT.pdf",
                 descripcion: `En esta empresa, he adquirido experiencia en programación, encriptación de información y optimización de código. He trabajado con bases de datos relacionales como MySQL, PostgreSQL y SQL Server, donde he optimizado consultas, diseñado esquemas eficientes y realizado migraciones de datos para garantizar un rendimiento óptimo y la escalabilidad de los sistemas.
                             Desarrollé un sistema CRM multifuncional para diversas empresas veterinarias en Chile, así como una plataforma de comercio electrónico utilizando WooCommerce para la venta en línea de productos. Implementé tecnologías web como HTML, CSS, JavaScript, jQuery, y consumí APIs REST en el sistema CRM desarrollado con Laravel/PHP. Además, he gestionado bases de datos en MySQL y PostgreSQL, realizando tareas como la normalización de datos, optimización de índices y respaldos automatizados para asegurar la integridad y disponibilidad de la información.
                             También desarrollé páginas en PHP para clientes, utilizando Bitbucket para la gestión de repositorios y Jira para el manejo de incidencias y soporte diario del sistema. Documentamos exhaustivamente el código del sistema y realizamos pruebas unitarias para garantizar la calidad del software.
@@ -86,6 +97,7 @@ export const Curriculo = () => {
             {
                 titulo: 'Programador BackEnd',
                 instituto: 'OFICINA UNIDAD FUNCIONAL DE DESARROLLO TECNOLOGICO (DIRESA LIMA)',
+                pdfUrl: "/Certificados/constancia_diresa.pdf",
                 fecha: '09/2019 - 01/2020',
                 descripcion: `Durante mi pasantía en esta empresa, adquirí experiencia como programador backend. 
                               Trabajé con la tecnología Laravel junto con el framework Angular para desarrollar un sistema de gestión de inventario de documentos. 
@@ -95,6 +107,7 @@ export const Curriculo = () => {
             {
                 titulo: 'Soporte y Desarrollo de Software',
                 instituto: 'OFICINA DE SERVICIOS INFORMATICO UNIVERSIDAD NACIONAL JOSE FAUSTINO (HUACHO LIMA)',
+                pdfUrl: "/Certificados/constancia_faustino.pdf",
                 fecha: '02/2019 - 05/2020',
                 descripcion: `Durante mi pasantía en esta institución, adquirí conocimientos en el flujo del sistema, lo que me permitió trabajar en la asistencia del personal y manejar incidencias del software. 
                               Desarrollé habilidades para identificar y resolver conflictos relacionados con el sistema, así como para brindar apoyo a los diferentes institutos con problemas del sistema.
@@ -118,10 +131,18 @@ export const Curriculo = () => {
                                         <h4>{item.titulo}</h4>
                                         <span className="casa">
                                             {item.instituto}
-                                            <a style={{ color: 'white', marginLeft:"10px" }} href={item.pdfUrl || "#"} target="_blank" rel="noopener noreferrer">
-                                                <i className="fa-solid fa-file-pdf" ></i>
+                                            <a
+                                                style={{ color: 'white', marginLeft: "10px" }}
+                                                href={item.pdfUrl}
+
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                            >
+                                                <i className="fa-solid fa-file-pdf"></i>
                                             </a>
-                                        </span>                                        <span className="fecha">{item.fecha}</span>
+
+                                        </span>
+                                        <span className="fecha">{item.fecha}</span>
                                         <p>{item.descripcion}</p>
                                         <div className="conectori">
                                             <div className="circuloi"></div>
@@ -136,7 +157,19 @@ export const Curriculo = () => {
                                 hojaVida.experiencia.map((item, i) =>
                                     <div key={i} className={`${styles['animacion-timeline']} item der`}>
                                         <h4>{item.titulo}</h4>
-                                        <span className="casa">{item.instituto}</span>
+                                        <span className="casa">{item.instituto}
+                                            {item.pdfUrl?.trim() && (
+                                                <a
+                                                    style={{ color: 'white', marginLeft: "10px" }}
+                                                    href={item.pdfUrl}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    <i className="fa-solid fa-file-pdf"></i>
+                                                </a>
+                                            )}
+
+                                        </span>
                                         <span className="fecha">{item.fecha}</span>
                                         <p>{item.descripcion}</p>
                                         <div className="conectord">
@@ -145,7 +178,6 @@ export const Curriculo = () => {
                                     </div>
                                 )
                             }
-
                         </div>
                     </div>
                 </div>

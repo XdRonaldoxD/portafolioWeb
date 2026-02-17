@@ -262,7 +262,7 @@ export const Portafolio = () => {
             <Header />
             <section id="portfolio" className="portfolio">
                 <div className="contenido-seccion">
-                    <h2>PORTAFOLIO</h2>
+                    <h2 className='animate__animated animate__backInDown'>PORTAFOLIO DESTACADO</h2>
                     <div className='flex flex-wrap'>
                         {portafolioWeb.map((item, i) => (
                             <div key={i} className='w-full sm:w-1/2 lg:w-1/3 p-2 flex justify-center'>
