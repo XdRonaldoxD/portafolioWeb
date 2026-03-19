@@ -65,7 +65,7 @@ export const Curriculo = () => {
         ],
         experiencia: [
             {
-                titulo: 'Desarrollador Full Stack Jr. | PHP/Laravel',
+                titulo: 'Desarrollador Full Stack | PHP/Laravel',
                 instituto: 'Grupo KFC Ecuador',
                 fecha: '05/2025 - 03/2026',
                 pdfUrl: "",
