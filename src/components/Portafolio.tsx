@@ -11,9 +11,26 @@ import { IconoAngularMaterial } from '../iconos/IconoAngularMaterial';
 import { IconoTailwind } from '../iconos/IconoTailwind';
 import { IconoVue } from '../iconos/IconoVue';
 import { IconoScss } from '../iconos/IconoScss';
+import { IconoVuetify } from '../iconos/IconoVuetify';
 export const Portafolio = () => {
     // DATOS DEL PORTAFOLIO----------------
     const portafolioWeb = [
+
+        {
+            img: "img/kfc_ecuador.png",
+            url: "",
+            titulo: "SISTEMA INTEGRADO RESTURANTES KFC ECUADOR",
+            descripcion: "Sitio web donde gestiona el sistema de restaurantes KFC en Ecuador, con funcionalidades para la administración de pedidos, gestión de inventarios, control de mesas , reportes de ventas u otros.",
+            subtitulo: "SISTEMA WEB",
+            tecnologia: [
+                { icon: <i className="fab fa-laravel p-[0.2rem] rounded  bg-orange-500 text-white"></i>, name: 'Laravel' },
+                { icon: <i data-tooltip-id="Php" data-tooltip-content="PHP" className="fab fa-php p-[0.2rem] rounded bg-purple-500 text-white"></i>, name: 'Php' },
+                { icon: <IconoVue />, name: 'Vue' },
+                { icon: <IconoCss />, name: 'Css' },
+                { icon: <IconoVuetify />, name: 'Vuetify' },
+                { icon: <IconoHtml5 />, name: 'Html5' }
+            ]
+        },
         {
             img: "img/cistcorfact.png",
             url: "https://demo.devcistcor.cloud",
