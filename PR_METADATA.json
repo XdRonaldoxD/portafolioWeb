@@ -1,0 +1,13 @@
+docs(quality): create PR from Quality to master (draft)
+
+Title: docs(quality): añadir README sobre uso de IA en PRs y procesos
+
+Body:
+Resumen
+- Añade `README_IA_en_PRs.md` que muestra cómo la IA puede ayudar fuera del código: conceptos clave (IA en PRs y commits, IA como reviewer, IA en CI/CD conceptual), ejemplos prácticos (PR mejor redactado, comentario de review automático), riesgos y prompts recomendados.
+
+Checklist antes de merge
+- [ ] Verificar redacción y ortografía del README.
+- [ ] Validar que el README no exponga información sensible.
+- [ ] Pedir feedback a 1–2 compañeros en el PR.
+- [ ] Decidir si queremos un piloto: aplicar prompts en 3 PRs reales.
